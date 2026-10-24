@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+*.log
+.DS_Store
+.cache/
+.streamlit/secrets.toml
+models/*.joblib
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.safetensors
+models/*.pkl
+exports/*
+!exports/.gitkeep
