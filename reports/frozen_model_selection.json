@@ -1,0 +1,10 @@
+{
+  "total": "cord_augmented",
+  "validation_total_scores": {
+    "sroie_only": 0.808,
+    "cord_augmented": 0.824
+  },
+  "address_threshold": 0.35,
+  "validation_address_exact": 0.064,
+  "caveat": "Selection uses only original SROIE internal validation"
+}

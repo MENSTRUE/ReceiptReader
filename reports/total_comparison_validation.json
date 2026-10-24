@@ -1,0 +1,8 @@
+{
+  "scores": {
+    "sroie_only": 0.808,
+    "cord_augmented": 0.824
+  },
+  "selected": "cord_augmented",
+  "selection_policy": "SROIE validation total exact; ties choose SROIE only"
+}

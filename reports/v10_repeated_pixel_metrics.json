@@ -1,0 +1,23 @@
+{
+  "n": 80,
+  "failed": 0,
+  "note": "repeated SROIE test, not independent",
+  "baseline": {
+    "company_exact": 0.525,
+    "date_exact": 0.75,
+    "address_exact": 0.3625,
+    "total_exact": 0.55,
+    "address_token_f1": 0.8569938196672346,
+    "macro_exact": 0.546875,
+    "all_four_exact": 0.05
+  },
+  "v10": {
+    "company_exact": 0.525,
+    "date_exact": 0.75,
+    "address_exact": 0.3625,
+    "total_exact": 0.55,
+    "address_token_f1": 0.8569938196672346,
+    "macro_exact": 0.546875,
+    "all_four_exact": 0.05
+  }
+}

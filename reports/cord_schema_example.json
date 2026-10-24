@@ -1,0 +1,18 @@
+{
+  "keys": [
+    "gt_parse",
+    "meta",
+    "valid_line",
+    "roi",
+    "repeating_symbol",
+    "dontcare"
+  ],
+  "gt_parse_categories": [
+    "menu",
+    "sub_total",
+    "total"
+  ],
+  "sample_total": {
+    "total_price": "1,591,600"
+  }
+}

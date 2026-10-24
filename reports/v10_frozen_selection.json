@@ -1,0 +1,9 @@
+{
+  "variant": "native",
+  "psm": 6,
+  "decoder": "base",
+  "threshold": 0.35,
+  "validation_address_f1": 0.8179605517043139,
+  "validation_address_exact": 0.3875,
+  "base_address_f1": 0.8179605517043139
+}

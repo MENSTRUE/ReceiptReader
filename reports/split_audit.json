@@ -1,0 +1,11 @@
+{
+  "sroie_training": 626,
+  "sroie_internal_training": 501,
+  "sroie_validation": 125,
+  "sroie_test": 361,
+  "sroie_hash_clean_repeated_test": 353,
+  "overlap_excluded": 8,
+  "cord_official_training": 800,
+  "cord_validation_not_used_to_train": true,
+  "cord_test_not_used_to_train": true
+}

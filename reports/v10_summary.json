@@ -1,0 +1,51 @@
+{
+  "version": "v10",
+  "datasets": [
+    "SROIE",
+    "CORD v2"
+  ],
+  "selection": {
+    "variant": "native",
+    "psm": 6,
+    "decoder": "base",
+    "threshold": 0.35,
+    "validation_address_f1": 0.8179605517043139,
+    "validation_address_exact": 0.3875,
+    "base_address_f1": 0.8179605517043139
+  },
+  "sroie_validation_total": {
+    "sroie_only": 0.808,
+    "cord_augmented": 0.824
+  },
+  "repeated_pixel_metrics": {
+    "n": 80,
+    "failed": 0,
+    "note": "repeated SROIE test, not independent",
+    "baseline": {
+      "company_exact": 0.525,
+      "date_exact": 0.75,
+      "address_exact": 0.3625,
+      "total_exact": 0.55,
+      "address_token_f1": 0.8569938196672346,
+      "macro_exact": 0.546875,
+      "all_four_exact": 0.05
+    },
+    "v10": {
+      "company_exact": 0.525,
+      "date_exact": 0.75,
+      "address_exact": 0.3625,
+      "total_exact": 0.55,
+      "address_token_f1": 0.8569938196672346,
+      "macro_exact": 0.546875,
+      "all_four_exact": 0.05
+    }
+  },
+  "cord_validation_total_exact": 0.95,
+  "limitations": [
+    "Official SROIE test previously inspected (v1-v9). Not untouched.",
+    "OCR output can miss source characters; no decoder can reliably restore missing evidence.",
+    "CORD supplies total supervision only for target fields.",
+    "No manual SROIE address annotation corrections included.",
+    "Financial outputs require human verification."
+  ]
+}

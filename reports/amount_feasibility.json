@@ -1,0 +1,5 @@
+{
+  "sroie_train_candidate_recall": 0.996,
+  "cord_train_candidate_recall": 0.9961240310077519,
+  "cord_missing_target": 26
+}
