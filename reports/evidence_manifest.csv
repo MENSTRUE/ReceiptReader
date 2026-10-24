@@ -1,0 +1,12 @@
+artifact,category,source_or_protocol,observed_n,status,claim_allowed,claim_forbidden
+reports/split_audit.json,audit,SROIE and CORD v2 split audit,,present_in_github,Source counts and overlap counts only,Untouched final test claim
+reports/v10_summary.json,research_metrics,v10 research selection and repeated SROIE pixel,80,present_in_github,Research-only values with exact protocols,App accuracy
+reports/v10_repeated_pixel_metrics.json,research_metrics,Repeated previously inspected SROIE pixel test,80,present_in_github,52.5% company / 75% date / 36.25% address / 55% total / 5% all four,Independent benchmark or v10 gain
+reports/total_comparison_validation.json,research_metrics,SROIE validation total, ,present_in_github,80.8% SROIE-only vs 82.4% CORD augmented total exact,4-field app score
+reports/v10_frozen_selection.json,selection,Research selection configuration,,present_in_github,Frozen research config details,Deployed model config
+assets/plots/01_partitions.png,research_plot,Research data partitions,,present_in_github,Plot only after reading labels,New app results
+assets/plots/v10_comparison.png,research_plot,v10 research comparison,,present_in_github,Research comparison with correct protocol,App metric illustration
+notebooks/receiptreader.ipynb,research_notebook,Kaggle research notebook,,present_in_github,Notebook available for audit,Proven v10 integration
+models/,model_artifact,Research v10 app integration,,not_verified,No v10 binary verified,Claim that binary is deployed
+assets/screenshots/02_review_four_fields.png,app_screenshot,Local illustrative one-receipt smoke,,not_committed,Sanitized actual app example after manually adding,Accuracy evaluation
+exports/receipt_reviewed.csv,reviewed_export,Locally verified per-user CSV,,local_only_ignored,Reviewed fields after human confirmation,Independent ground truth dataset
